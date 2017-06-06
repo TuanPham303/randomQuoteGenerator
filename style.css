@@ -1,0 +1,51 @@
+.verticalAlignText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #16a085;
+  font-family: "Open Sans", sans-serif; }
+  body .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center; }
+    body .container .quote {
+      color: #16a085;
+      width: 100%;
+      font-size: 35px;
+      margin-bottom: 25px; }
+    body .container .author {
+      color: #16a085;
+      width: 100%;
+      font-size: 20px;
+      margin-bottom: 30px; }
+    body .container button {
+      margin: 0 auto;
+      outline: none;
+      float: right;
+      height: 50px;
+      width: 120px;
+      border: none;
+      border-radius: 5px;
+      background-color: #16a085;
+      color: #fff;
+      font-size: 15px; }
+      body .container button:hover {
+        opacity: 0.8;
+        cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
